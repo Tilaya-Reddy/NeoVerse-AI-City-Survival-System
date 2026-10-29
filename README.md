@@ -106,7 +106,7 @@ The program reads and writes its files in a `data/` folder next to where it runs
 ## Known limitations
 
 - Passwords are stored with a simple Caesar-style shift to demonstrate the idea of "stored, not plain text". This is **not real encryption**; a real system would use a salted hash such as bcrypt or Argon2.
-- 
+  
 - Clearance levels are recorded and shown at login but do not restrict menu options.
 
 ## Licence
